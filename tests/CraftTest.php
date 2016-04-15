@@ -2,8 +2,7 @@
 /**
  * Jaeger
  *
- * @author		Eric Lamb <eric@mithra62.com>
- * @copyright	Copyright (c) 2015-2016, mithra62, Eric Lamb
+ * @copyright	Copyright (c) 2015-2016, mithra62
  * @link		http://jaeger-app.com
  * @version		1.0
  * @filesource 	./tests/CraftTest.php
@@ -13,11 +12,11 @@ namespace JaegerApp\tests\Platforms;
 use JaegerApp\Platforms\Craft;
 
 /**
- * mithra62 - Craft object Unit Tests
+ * Jaeger - Craft object Unit Tests
  *
  * Contains all the unit tests for the \mithra62\Platforms\Craft object
  *
- * @package mithra62\Tests
+ * @package Jaeger\tests
  * @author Eric Lamb <eric@mithra62.com>
  */
 class CraftTest extends \PHPUnit_Framework_TestCase
