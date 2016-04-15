@@ -22,7 +22,7 @@ use \CSecurityManager;
  * @package Platforms\Craft
  * @author Eric Lamb <eric@mithra62.com>
  */
-class Craft extends AbstractPlatform 
+class Craft extends AbstractPlatform
 {
 
     /**
