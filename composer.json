@@ -1,6 +1,9 @@
 {
 	"name": "jaeger-app/platforms-craft",
 	"description": "A Craft CMS Platform object for use with Jaeger.",
+    "keywords": [
+        "Craft"
+    ],	
 	"require": {
 		"php": ">=5.4.0",
 		"jaeger-app/exceptions": "dev-master",
