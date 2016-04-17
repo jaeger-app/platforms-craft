@@ -41,7 +41,7 @@ class Craft extends AbstractPlatform
                 'password' => $config->get('password', 'db'),
                 'database' => $config->get('database', 'db'),
                 'prefix' => $config->get('tablePrefix', 'db'),
-                'settings_table_name' => $config->get('settings_table_name', 'backuppro')
+                'settings_table_name' => $config->get('tablePrefix', 'db').$this->getSettingsTable()
             );
         } else {
             throw new PlatformsException("\\Craft\\ConfigService object isn't set!");
