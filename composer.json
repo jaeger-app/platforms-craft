@@ -1,6 +1,6 @@
 {
 	"name": "jaeger-app/platforms-craft",
-	"description": "A Craft CMS Platform object for use with Jaeger.",
+	"description": "A Craft Platform object for use with Jaeger\\Platforms.",
     "keywords": [
         "Craft"
     ],	
