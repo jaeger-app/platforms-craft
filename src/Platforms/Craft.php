@@ -17,7 +17,7 @@ use \CSecurityManager;
 /**
  * mithra62 - Craft Platform Object
  *
- * The bridge between mithra62 code and Craft specific logic
+ * The bridge between Jaeger code and Craft specific logic
  *
  * @package Platforms\Craft
  * @author Eric Lamb <eric@mithra62.com>
@@ -53,7 +53,7 @@ class Craft extends AbstractPlatform
      * 
      * @ignore
      *
-     * @see \mithra62\BackupPro\Platforms\PlatformInterface::getEmailDetails()
+     * @see \mithra62\BackupPro\Platforms\PlatformInterface::getEmailConfig()
      */
     public function getEmailConfig()
     {
